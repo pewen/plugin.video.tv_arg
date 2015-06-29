@@ -30,22 +30,226 @@ STRINGS = {
 }
 
 STATIC_STREAMS = (
-    {
-        'title': 'Nasa TV HD',
-        'logo': 'public.jpg',
-        'stream_url': ('http://public.infozen.cshls.lldns.net/infozen/public/'
-                       'public/public_1000.m3u8'),
-    }, {
-        'title': 'ISS Live Stream',
-        'logo': 'iss.jpg',
-        'stream_url': ('http://iphone-streaming.ustream.tv/ustreamVideo/'
-                       '9408562/streams/live/playlist.m3u8'),
-    }, {
+    { {
         'title': 'Educational Channel HD',
         'logo': 'edu.jpg',
         'stream_url': ('http://edu.infozen.cshls.lldns.net/infozen/edu/'
                        'edu/edu_1000.m3u8'),
+    }, {                                                                        
+        'title': 'Radio UNRC 97.7',
+        'logo': 'unrc.gif',                                                      
+        'stream_url': ('http://iphone-streaming.ustream.tv/'
+			'ustreamVideo/16261918/streams/live/playlist.m3u8'),
+    }, {                                                                        
+        'title': 'TN Tv (Bs As)',                                            
+        'logo': 'tn.jpg',                                                      
+        'stream_url': ('rtsp://stream.tn.com.ar/'
+			'live/tnhd1'),
+    }, {                                                                        
+        'title': 'TN audio (Bs As)',
+        'logo': 'tn.jpg',                                                      
+        'stream_url': ('rtsp://stream.tn.com.ar/'                               
+                        'live/tnaudio'),
     }, {
+        'title': 'Canal 13 (Bs As)',
+	'logo': 'canal-13-bsas.jpg',
+        'stream_url': ('rtsp://stream.eltrecetv.com.ar/live13/'
+			'13tv/13tv1'),
+    }, {                                                                      
+        'title': 'Canal 13 (Rio Cuarto)',
+        'logo': 'Canal13RioCuarto.png',
+        'stream_url': ('http://iphone-streaming.ustream.tv/ustreamVideo/18376856/streams/'
+			'live/playlist.m3u8'),
+    }, {                                                                    
+        'title': 'Canal 26 (m3u8)',
+        'logo': 'canal26.jpg',                                                  
+        'stream_url': ('http://live-edge01.telecentro.net.ar/live/smil:c26.smil/'
+			'playlist.m3u8'),
+    }, {
+	'title': 'FM Milenium',
+	'logo': 'edu.jpg',
+	'stream_url': ('rtsp://fmmilenium.activecds.telecomcdn.com.ar/'
+			'fmmilenium'),
+    }, {                                                                        
+        'title': 'CN23',
+        'logo': 'CN23.png',
+        'stream_url': ('http://190.210.73.129:'
+                        '1940'),
+    }, {                                                                        
+        'title': 'Quatro',                                                    
+        'logo': 'edu.jpg',                                                      
+        'stream_url': ('rtsp://cdns840stu1021.multistream.net:80/'
+			'quatrotv1live/live-400'),
+    }, {                                                                        
+        'title': 'Canal 9',                                                      
+        'logo': 'edu.jpg',                                                      
+        'stream_url': ('http://72.46.226.53/live01/_definst_/'
+			'canal91/playlist.m3u8'),
+    }, {                                                           
+        'title': 'C5N',                                       
+        'logo': 'c5n.gif',                                                    
+        'stream_url': ('http://c5n.stweb.tv/c5n/live/'
+			'playlist.m3u8'),
+    }, {
+	'title': 'AM sport AR',
+	'logo': 'edu.jpg',
+	'stream_url': ('http://iphone-streaming.ustream.tv/'
+			'uhls/11602466/streams/live/iphone/playlist.m3u8'),
+    }, {
+        'title': 'Canal 10 UNC',
+        'logo': 'canal10-CBA.jpeg',
+        'stream_url': ('http://iphone-streaming.ustream.tv/'                
+                        'ustreamVideo/18308983/streams/live/playlist.m3u8'),
+    }, {
+        'title': 'Canal CBA 24 N3',                                    
+        'logo': 'cba-24-n3.jpg',                                         
+        'stream_url': ('http://iphone-streaming.ustream.tv/'      
+                        'ustreamVideo/11678041/streams/live/playlist.m3u8'),  
+    }, { 
+        'title': 'Radio UNC',                                   
+        'logo': 'edu.jpg',                                               
+        'stream_url': ('http://iphone-streaming.ustream.tv/'
+                        'ustreamVideo/15400867/streams/live/playlist.m3u8'),
+    }, {                                                             
+	'title': 'Canal 12 CBA',
+	'logo': 'edu.jpg',
+	'stream_url': ('http://iphone-streaming.ustream.tv/'
+			'ustreamVideo/10923213/streams/live/playlist.m3u8'),
+    }, {
+	'title': 'UNLP TV',
+	'logo': 'UNLP.jpg',
+	'stream_url': ('rtmp://163.10.0.122:80/stream/'
+			'tvunlp'),
+   }, {
+	'title': '360 TV',
+	'logo': '360TV.jpg',                                                
+	'stream_url': ('http://lsdmasterhls-lh.akamaihd.net/i/masterhls_10@97032/'
+			'master.m3u8'),
+   }, {
+	'title': 'BLUE 100.7 FM Bs As',
+        'logo': 'blue-1007.jpg',                                        
+	'stream_url': ('http://201.212.5.144/'
+			'blue'),
+   }, {                                                     
+        'title': 'LV16',                                     
+        'logo': 'lv16.jpg',                                    
+        'stream_url': ('http://hostingystreaming.com:1935/aacplus/' 
+                        '4680/playlist.m3u8'),
+   }, {                                                     
+        'title': 'Fm Libre Rio Cuarto',                                     
+        'logo': 'FM-Libre-RioCuarto.png',                                    
+        'stream_url': ('http://184.107.187.146:9122/' 
+                        'fmlibre'),
+   }, {                                                     
+        'title': 'Fm Las Higueras',                                     
+        'logo': 'fmhigueras.png',                                    
+        'stream_url': ('http://188.165.236.90:' 
+                        '7568'),
+   }, {                                                     
+        'title': 'FM Gospel Rio Cuarto',                                     
+        'logo': 'fmGospel.jpg',                                    
+        'stream_url': ('rtsp://wowza.aacplusargentina.com:1935/aacplus/'
+                        '9220'),
+   }, {
+       'title': 'Radio Nacional Rock',
+        'logo': 'edu.jpg',                                                  
+        'stream_url': ('rtmp://186.33.232.11/rn_sc_rad39/'
+			'rn_sc_rad39.stream'),
+   }, {
+	'title': 'Nacional Folklorica',
+	'logo': 'edu.jpg',
+	'stream_url': ('rtmp://186.33.232.10/rn_sc_rad38/'
+			'rn_sc_rad38.stream'),
+   }, {
+	'title': 'Nacional Cordoba',
+	'logo': 'nacional-cba.jpg',
+	'stream_url': ('rtmp://186.33.227.199/rn_sc_rad7/'
+			'rn_sc_rad7.stream'),
+   }, {
+	'title': 'AM 1110 - Radio Ciudad Bs As',
+	'logo': 'AM1110.png',
+	'stream_url': ('http://radios.argentina.fm/tunein.php/am1110/'
+			'playlist.asx'),
+  }, {
+	'title': 'Nuestra Radio Cba',
+	'logo': 'edu.jpg',
+	'stream_url': ('http://iphone-streaming.ustream.tv/ustreamVideo/15271401/streams/'
+			'live/playlist.m3u8'),
+  }, {
+	'title': 'America2',
+	'logo': 'A24.png',
+	'stream_url': ('http://iphone-streaming.ustream.tv/ustreamVideo/17916700/streams/'
+			'live/playlist.m3u8'),
+  }, {
+        'title': 'Tango City',                                           
+        'logo': 'edu.jpg',                                                      
+        'stream_url': ('http://stream.tangocity.com.ar/'                    
+                        'tangocity'),
+  }, {
+	'title': 'Nacional Clasica',
+	'logo': 'edu.jpg',
+	'stream_url': ('rtmp://186.33.227.21/rn_sc_rad37/'
+			'rn_sc_rad37.stream'),
+  }, {                                                                          
+        'title': 'Senado TV',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://mun-se-2.se.hsn.activecds.telecomcdn.com.ar/'
+                        'hsn'),
+  }, {                                                                          
+        'title': 'Folklore Cien radios',
+        'logo': 'guitarreada2.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'Folklore_64000.aac'),
+
+  }, {
+        'title': 'Costumbres Argentinas Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'Costumbres_Argentinas_32000.aac'),
+
+  }, {
+        'title': 'Nacional Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'Nacional_64000.aac'),
+
+  }, {
+        'title': '80 y 90 Nacional Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        '80_90_Nacional_32000.aac'),
+
+  }, {
+        'title': 'Egresados 1988 Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'Egresados_1988_32000.aac'),
+
+  }, {
+        'title': 'All about Tango Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'All_About_Tango_32000.aac'),
+                        
+ }, {
+        'title': 'Todo Tango Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'Todo_Tango_32000.aac'),
+
+}, {
+        'title': 'Belgrano AM 650',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://wmserver3.aginet.com.ar:13574/;stream/'
+                        '1'),
+
+ }, {
+        'title': 'Grandes del Tango Cien radios',
+        'logo': 'edu.jpg',
+        'stream_url': ('http://buecrplb01.cienradios.com.ar/'
+                        'Grandes_del_Tango_64000.aac'),
+                        
+  }, {
         'title': 'Media Channel HD',
         'logo': 'media.jpg',
         'stream_url': ('http://media.infozen.cshls.lldns.net/infozen/media/'
@@ -53,52 +257,10 @@ STATIC_STREAMS = (
     },
 )
 
-YOUTUBE_CHANNELS = (
-    {
-        'name': 'NASA Main',
-        'logo': 'nasa.jpg',
-        'channel_id': 'UCLA_DiR1FfKNvjuUpBHmylQ',
-        'user': 'NASAtelevision',
-    }, {
-        'name': 'NASA Goddard',
-        'logo': 'goddard.jpg',
-        'channel_id': 'UCAY-SMFNfynqz1bdoaV8BeQ',
-        'user': 'NASAexplorer',
-    }, {
-        'name': 'NASA Jet Propulsion Laboratory',
-        'logo': 'jpl.jpg',
-        'channel_id': 'UCryGec9PdUCLjpJW2mgCuLw',
-        'user': 'JPLnews',
-    }, {
-        'name': 'NASA Kennedy Space Center',
-        'logo': 'nasa.jpg',
-        'channel_id': 'UCjJtr2fFcUp6yljzJOzpHUg',
-        'user': 'NASAKennedy',
-    }, {
-        'name': 'Hubble Space Telescope',
-        'logo': 'hubble.jpg',
-        'channel_id': 'UCqvjEkH_41m4DYaoNQwk4Bw',
-        'user': 'HubbleSiteChannel',
-    },
-)
-
-YOUTUBE_URL ='plugin://plugin.video.youtube/channel/%s/?page=1'
-
 plugin = Plugin()
 
 
 @plugin.route('/')
-def show_root_menu():
-    items = [
-        {'label': _('streams'),
-         'path': plugin.url_for('show_streams')},
-        {'label': _('videos'),
-         'path': plugin.url_for('show_channels')},
-    ]
-    return plugin.finish(items)
-
-
-@plugin.route('/streams/')
 def show_streams():
     items = [{
         'label': stream['title'],
@@ -108,15 +270,6 @@ def show_streams():
     } for stream in STATIC_STREAMS]
     return plugin.finish(items)
 
-
-@plugin.route('/channels/')
-def show_channels():
-    items = [{
-        'label': channel['name'],
-        'thumbnail': get_logo(channel['logo']),
-        'path': YOUTUBE_URL % channel['channel_id'],
-    } for channel in YOUTUBE_CHANNELS]
-    return plugin.finish(items)
 
 def get_logo(logo):
     addon_id = plugin._addon.getAddonInfo('id')
